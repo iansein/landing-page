@@ -16,6 +16,7 @@ body{
     padding: 0;
 }
 
+
 ul{
     list-style-type: none;
     display: flex;
@@ -24,24 +25,39 @@ ul{
 
 .header{
     display: flex;
+    background-color: #1f2937;
     justify-content: center;
-    align-items: center;
-    background-color: #1F2937;
-    padding-bottom: 30px;
+    color: white;
 }
 
+.hero-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
 .header-container{
-    width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
+
+.header-main-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.img-header{
+}
+
 
 .title{
     color: #F9FAF8;
     font-size: 24px;
-
 }
 
 a{      
@@ -54,15 +70,6 @@ a{
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-}
-
-.header-content{
-    background-color: #1F2937;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-bottom: 100px;
-    align-items: center;
 }
 
 .button-signup{
@@ -79,19 +86,11 @@ a{
     color: #E5E7EB;
 }
 
-.header-main-content{
-    display: flex;
-    width: 1200px;
-    justify-content: space-between;
-}
 
 .items-header{
     max-width: 500px;
 }
 
-.img-header{
-    border: #F9FAF8 3px solid;
-}
 
 .main-title{
     font-size: 36px;
@@ -116,9 +115,6 @@ a{
     gap: 19px;
 }
 
-.info-card{
-
-}
 
 .cards{
     width: 250px;
